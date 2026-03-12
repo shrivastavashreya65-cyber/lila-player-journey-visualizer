@@ -72,8 +72,8 @@ def load_data():
         lambda x: x.decode("utf-8") if isinstance(x, bytes) else x
     )
 
+    
     return df
-
 
 df = load_data()
 
